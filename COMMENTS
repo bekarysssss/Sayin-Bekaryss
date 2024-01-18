@@ -1,0 +1,6 @@
+print("Hello, World!") #This is a comment
+
+#This is comment too
+
+#print("Hello, World!")
+print("Cheers, Mate!")

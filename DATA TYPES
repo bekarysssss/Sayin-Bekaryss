@@ -1,27 +1,27 @@
-Text Type:	str
-Numeric Types:	int, float, complex
-Sequence Types:	list, tuple, range
-Mapping Type:	dict
-Set Types:	set, frozenset
-Boolean Type:	bool
-Binary Types:	bytes, bytearray, memoryview
-None Type:	NoneType
+1) x = 5
+   print(type(x))
+#int
 
-----
-x = 5
-print(type(x)) #int
+2) x = "Hello World"
+print(type(x))
+#str
 
-----
-x = "Hello World"	#str
+3) x = 20.5
+print(type(x))
+#float
 
-----
-x = 20.5	#float
+4) x = ["apple", "banana", "cherry"]
+print(type(x))
+#list
 
-----
-x = 1j	#complex
+5) x = ("apple", "banana", "cherry")
+print(type(x))
+#tuple
 
-----
-x = ["apple", "banana", "cherry"]	#list
+6) x = {"name" : "John", "age" : 36}
+print(type(x))
+#dict
 
-----
-x = True	#bool
+7) x = True
+print(type(x))
+#bool
